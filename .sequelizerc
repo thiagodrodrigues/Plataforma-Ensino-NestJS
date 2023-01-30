@@ -1,0 +1,7 @@
+var path = require('path');
+
+module.exports = {
+    'config': path.resolve('dist', 'infrastructure', 'config.js'),
+    'migrations-path': path.resolve('dist', 'infrastructure', 'mysql', 'migrations'),
+    'seeders-path': path.resolve('dist', 'infrastructure', 'mysql', 'seeders'),
+}
